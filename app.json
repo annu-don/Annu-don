@@ -1,0 +1,18 @@
+{
+  "name": "♥️ANNU DON PAIR♥️",
+  "description": "SESSION ID GENERATOR FOR WHATSAPP BOTS",
+  "logo": "https://i.ibb.co/vvMqY41p/92d880ac7534.jpg",
+  "repository": "https://github.com/",
+  "keywords": ["@ANNU-DON"],
+  "success_url": "/", 
+  "buildpacks": [
+    { "url": "https://github.com/heroku/heroku-buildpack-nodejs#latest" }
+  ],
+  "env": {      
+    "MESSAGE": {
+      "description": "Msg Attached With Session ID",
+      "value": "🔰 BY || ANNU DON OFFICIAL 🔰",
+      "required": false 
+    }
+  }
+}
